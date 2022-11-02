@@ -3,7 +3,7 @@
 
 ## Discord Injection
 
-Clone The Repository
+### Clone The Repository
 ```
 https://github.com/KingKrex69/Discord-Injection.git
 ```
