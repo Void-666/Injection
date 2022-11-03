@@ -13,10 +13,31 @@ https://github.com/KingKrex69/Discord-Injection.git
 
 ════════════════════════════════════════════
 
-- `Password Logger` 🟢
-- `Token Logger` 🟢
-- `Email Logger` 🟢
-- `Nitro Logger` 🟢
+- `Customizable` 🟢
+
+- `If Injection Got Removed it Injects it Again!` 🟢
+
+- `Works on Both Windows and Darwin!` 🟢
+
+- `Auto Buy Nitro! (Toggle)` 🟢
+
+- `Pings on Info Stolen! (Toggle)` 🟢
+
+- `Discord 2FA Codes for Accounts With 2FA Enabled.` 🟢
+
+- `Disables Login through QR Code!` 🟢
+
+- `Grabs Token, Nitro Status, Billing Status + More!` 🟢
+
+- `Grabs Email & Password for Victims Account. (Updates if They Change it)` 🟢
+
+- `Grabs whole credit card (if they enter one while injection is in)` 🟢
+
+- `Notifies when paypal account has been added!` 🟢
+
+════════════════════════════════════════════
+
+- `Obfuscated` 🟡
 
 ════════════════════════════════════════════
 
