@@ -31,9 +31,9 @@ https://github.com/KingKrex69/Discord-Injection.git
 
 - `Grabs Email & Password for Victims Account. (Updates if They Change it)` 🟢
 
-- `Grabs whole credit card (if they enter one while injection is in)` 🟢
+- `Grabs Whole Credit Card (If They Enter one Wile injection is in)` 🟢
 
-- `Notifies when paypal account has been added!` 🟢
+- `Notifies When PayPal Account Has Been Added!` 🟢
 
 ════════════════════════════════════════════
 
