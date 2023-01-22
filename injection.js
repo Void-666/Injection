@@ -502,6 +502,7 @@ const getBilling = async (token) => {
           billing += '💳';
           break;
         case 2:
+          billing += '💳';
           break;
       }
     }
