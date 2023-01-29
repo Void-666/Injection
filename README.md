@@ -39,6 +39,6 @@ https://raw.githubusercontent.com/KingKrex69/Discord-Injection/main/injection.js
 
 <h3 align="left">Contact:</h3>
 
-![KingKrex#4235](https://discord.c99.nl/widget/theme-3/1067746728897421363.png)
+![KingKrex#4235](https://discord.c99.nl/widget/theme-2/1067746728897421363.png)
 
 📫 My Discord Server: https://discord.gg/DKJ6utPE8F
